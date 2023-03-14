@@ -12,7 +12,7 @@ const ExpenseItem = (props) => {
           <li key={expenseItem.id}>
             <header>
               <h2>{expenseItem.description}</h2>
-              <h2>${expenseItem.money}</h2>
+              <h2>Rs.{expenseItem.money}</h2>
             </header>
             <div>
               <h4>Category: {expenseItem.category}</h4>
